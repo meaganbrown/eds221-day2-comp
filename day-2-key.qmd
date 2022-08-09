@@ -7,4 +7,52 @@ execute:
   message: false
 ---
 
-## 
+## Vectors
+
+```{r}
+#Creating a vector
+dogs <- c("teddy", "khora", "waffle", "tally")
+
+#Checking the class
+class(dogs)
+
+```
+
+```{r}
+#Creating a new vector
+cats <- c("creamsicle wolf", 14.2, 3L)
+
+#Checking the class
+class(cats)
+
+```
+
+```{r}
+#Creating new vector
+years <- c(20, 40, 16, 2)
+
+#checking the class
+class(years)
+typeof(years)
+```
+
+```{r}
+#Want to do a conditional check 
+# is. <<< asks questions "is this THIS"
+# as. <<< gives a command "make this THIS"
+
+is.numeric(years)
+is.numeric(character)
+
+```
+
+```{r}
+dog_food <- c(teddy = "purina", khora = "alpo", "waffle" = "fancy feast")
+
+dog_food
+
+dog_food[2]
+
+dog_food["khora"]
+
+```
