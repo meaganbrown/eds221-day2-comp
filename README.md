@@ -1,5 +1,5 @@
 # eds221-day2-comp
 
--creating data structures
+- creating data structures
 - explroing data tupes
--intro to indexing
+- intro to indexing
